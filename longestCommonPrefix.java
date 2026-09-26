@@ -13,13 +13,3 @@ class Solution {
     }
 }
 
-class Main{
-    public static void main(String args[]){
-        Solution s= new Solution();
-        String strs[] = {"flower","flow","flight"};
-        String res=s.longestCommonPrefix(strs);
-        System.out.println(res);
-        //System.out.println(str.substring(0,2));
-        
-    }
-}
